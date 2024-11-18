@@ -1,3 +1,5 @@
+// Hello world
+
 
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -10,6 +12,7 @@ import Cart from "./app/Cart/cart";
 function App() {
   return (
     <div className="App">
+      {/* This is comment */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />}/>
