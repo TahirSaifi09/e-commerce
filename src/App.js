@@ -8,6 +8,7 @@ import Login from "./app/Login";
 import Forgot from "./app/Login/forgot";
 import Register from "./app/Login/Register";
 import Cart from "./app/Cart/cart";
+import SideCart from "./app/Cart/SideCart";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="Forgot" element={<Forgot/>}/>
           <Route path="Register" element={<Register />}/>
           <Route path="/Cart" element={<Cart/>}/>
+          <Route path="/SideCart" element={<SideCart/>}/>
         </Routes>
       </BrowserRouter>
     </div>
